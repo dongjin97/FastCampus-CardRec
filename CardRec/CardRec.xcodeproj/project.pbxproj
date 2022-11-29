@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80C55542935CFB500107B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C55532935CFB500107B32 /* AppDelegate.swift */; };
+		F80C55562935CFB500107B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C55552935CFB500107B32 /* SceneDelegate.swift */; };
+		F80C55582935CFB500107B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C55572935CFB500107B32 /* ViewController.swift */; };
+		F80C555B2935CFB500107B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C55592935CFB500107B32 /* Main.storyboard */; };
+		F80C555D2935CFB600107B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80C555C2935CFB600107B32 /* Assets.xcassets */; };
+		F80C55602935CFB600107B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C555E2935CFB600107B32 /* LaunchScreen.storyboard */; };
+		F80C556B2935CFB600107B32 /* CardRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C556A2935CFB600107B32 /* CardRecTests.swift */; };
+		F80C55752935CFB600107B32 /* CardRecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C55742935CFB600107B32 /* CardRecUITests.swift */; };
+		F80C55772935CFB600107B32 /* CardRecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C55762935CFB600107B32 /* CardRecUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80C55672935CFB600107B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80C55482935CFB500107B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80C554F2935CFB500107B32;
+			remoteInfo = CardRec;
+		};
+		F80C55712935CFB600107B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80C55482935CFB500107B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80C554F2935CFB500107B32;
+			remoteInfo = CardRec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80C55502935CFB500107B32 /* CardRec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardRec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C55532935CFB500107B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80C55552935CFB500107B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F80C55572935CFB500107B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80C555A2935CFB500107B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80C555C2935CFB600107B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80C555F2935CFB600107B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80C55612935CFB600107B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80C55662935CFB600107B32 /* CardRecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardRecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C556A2935CFB600107B32 /* CardRecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRecTests.swift; sourceTree = "<group>"; };
+		F80C55702935CFB600107B32 /* CardRecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardRecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C55742935CFB600107B32 /* CardRecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRecUITests.swift; sourceTree = "<group>"; };
+		F80C55762935CFB600107B32 /* CardRecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80C554D2935CFB500107B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C55632935CFB600107B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C556D2935CFB600107B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80C55472935CFB500107B32 = {
+			isa = PBXGroup;
+			children = (
+				F80C55522935CFB500107B32 /* CardRec */,
+				F80C55692935CFB600107B32 /* CardRecTests */,
+				F80C55732935CFB600107B32 /* CardRecUITests */,
+				F80C55512935CFB500107B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80C55512935CFB500107B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80C55502935CFB500107B32 /* CardRec.app */,
+				F80C55662935CFB600107B32 /* CardRecTests.xctest */,
+				F80C55702935CFB600107B32 /* CardRecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80C55522935CFB500107B32 /* CardRec */ = {
+			isa = PBXGroup;
+			children = (
+				F80C55532935CFB500107B32 /* AppDelegate.swift */,
+				F80C55552935CFB500107B32 /* SceneDelegate.swift */,
+				F80C55572935CFB500107B32 /* ViewController.swift */,
+				F80C55592935CFB500107B32 /* Main.storyboard */,
+				F80C555C2935CFB600107B32 /* Assets.xcassets */,
+				F80C555E2935CFB600107B32 /* LaunchScreen.storyboard */,
+				F80C55612935CFB600107B32 /* Info.plist */,
+			);
+			path = CardRec;
+			sourceTree = "<group>";
+		};
+		F80C55692935CFB600107B32 /* CardRecTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80C556A2935CFB600107B32 /* CardRecTests.swift */,
+			);
+			path = CardRecTests;
+			sourceTree = "<group>";
+		};
+		F80C55732935CFB600107B32 /* CardRecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F80C55742935CFB600107B32 /* CardRecUITests.swift */,
+				F80C55762935CFB600107B32 /* CardRecUITestsLaunchTests.swift */,
+			);
+			path = CardRecUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80C554F2935CFB500107B32 /* CardRec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C557A2935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRec" */;
+			buildPhases = (
+				F80C554C2935CFB500107B32 /* Sources */,
+				F80C554D2935CFB500107B32 /* Frameworks */,
+				F80C554E2935CFB500107B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardRec;
+			productName = CardRec;
+			productReference = F80C55502935CFB500107B32 /* CardRec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80C55652935CFB600107B32 /* CardRecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C557D2935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRecTests" */;
+			buildPhases = (
+				F80C55622935CFB600107B32 /* Sources */,
+				F80C55632935CFB600107B32 /* Frameworks */,
+				F80C55642935CFB600107B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80C55682935CFB600107B32 /* PBXTargetDependency */,
+			);
+			name = CardRecTests;
+			productName = CardRecTests;
+			productReference = F80C55662935CFB600107B32 /* CardRecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F80C556F2935CFB600107B32 /* CardRecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C55802935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRecUITests" */;
+			buildPhases = (
+				F80C556C2935CFB600107B32 /* Sources */,
+				F80C556D2935CFB600107B32 /* Frameworks */,
+				F80C556E2935CFB600107B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80C55722935CFB600107B32 /* PBXTargetDependency */,
+			);
+			name = CardRecUITests;
+			productName = CardRecUITests;
+			productReference = F80C55702935CFB600107B32 /* CardRecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80C55482935CFB500107B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F80C554F2935CFB500107B32 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F80C55652935CFB600107B32 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F80C554F2935CFB500107B32;
+					};
+					F80C556F2935CFB600107B32 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F80C554F2935CFB500107B32;
+					};
+				};
+			};
+			buildConfigurationList = F80C554B2935CFB500107B32 /* Build configuration list for PBXProject "CardRec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80C55472935CFB500107B32;
+			productRefGroup = F80C55512935CFB500107B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80C554F2935CFB500107B32 /* CardRec */,
+				F80C55652935CFB600107B32 /* CardRecTests */,
+				F80C556F2935CFB600107B32 /* CardRecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80C554E2935CFB500107B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C55602935CFB600107B32 /* LaunchScreen.storyboard in Resources */,
+				F80C555D2935CFB600107B32 /* Assets.xcassets in Resources */,
+				F80C555B2935CFB500107B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C55642935CFB600107B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C556E2935CFB600107B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80C554C2935CFB500107B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C55582935CFB500107B32 /* ViewController.swift in Sources */,
+				F80C55542935CFB500107B32 /* AppDelegate.swift in Sources */,
+				F80C55562935CFB500107B32 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C55622935CFB600107B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C556B2935CFB600107B32 /* CardRecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C556C2935CFB600107B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C55752935CFB600107B32 /* CardRecUITests.swift in Sources */,
+				F80C55772935CFB600107B32 /* CardRecUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80C55682935CFB600107B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80C554F2935CFB500107B32 /* CardRec */;
+			targetProxy = F80C55672935CFB600107B32 /* PBXContainerItemProxy */;
+		};
+		F80C55722935CFB600107B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80C554F2935CFB500107B32 /* CardRec */;
+			targetProxy = F80C55712935CFB600107B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80C55592935CFB500107B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80C555A2935CFB500107B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80C555E2935CFB600107B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80C555F2935CFB600107B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80C55782935CFB600107B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80C55792935CFB600107B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80C557B2935CFB600107B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardRec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80C557C2935CFB600107B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardRec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F80C557E2935CFB600107B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardRec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardRec";
+			};
+			name = Debug;
+		};
+		F80C557F2935CFB600107B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardRec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardRec";
+			};
+			name = Release;
+		};
+		F80C55812935CFB600107B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardRec;
+			};
+			name = Debug;
+		};
+		F80C55822935CFB600107B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.co.kr.CardRecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardRec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80C554B2935CFB500107B32 /* Build configuration list for PBXProject "CardRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C55782935CFB600107B32 /* Debug */,
+				F80C55792935CFB600107B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C557A2935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C557B2935CFB600107B32 /* Debug */,
+				F80C557C2935CFB600107B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C557D2935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C557E2935CFB600107B32 /* Debug */,
+				F80C557F2935CFB600107B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C55802935CFB600107B32 /* Build configuration list for PBXNativeTarget "CardRecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C55812935CFB600107B32 /* Debug */,
+				F80C55822935CFB600107B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80C55482935CFB500107B32 /* Project object */;
+}
